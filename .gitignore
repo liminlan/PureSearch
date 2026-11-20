@@ -1,0 +1,18 @@
+# 本地凭据与缓存（绝对不要提交）
+auth.json
+wbi.json
+buvid.json
+
+# 语音模型与构建产物
+models/
+dist/
+build/
+*.spec
+__pycache__/
+*.pyc
+
+# 日志
+*.log
+
+# 采集源（每人自配）
+sources.json.bak
