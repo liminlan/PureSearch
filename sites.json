@@ -1,0 +1,120 @@
+{
+  "groups": [
+    {
+      "id": "general",
+      "name": "综合资讯",
+      "kw": ["新闻", "热点", "热搜", "最新", "事件", "是什么", "为什么", "怎么样", "介绍"],
+      "sites": [
+        {"name": "知乎", "tag": "问答", "desc": "中文互联网问答社区", "search": "https://www.zhihu.com/search?type=content&q={q}"},
+        {"name": "微博", "tag": "热搜", "desc": "实时热点与话题讨论", "search": "https://s.weibo.com/weibo?q={q}"},
+        {"name": "今日头条", "tag": "资讯", "desc": "资讯聚合", "search": "https://so.toutiao.com/search?keyword={q}"},
+        {"name": "百度百科", "tag": "百科", "desc": "名词与概念速查", "search": "https://baike.baidu.com/search?word={q}"}
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "技术开发",
+      "kw": ["java", "python", "javascript", "js", "vue", "react", "sql", "代码", "编程", "算法", "报错", "bug", "api", "接口", "前端", "后端", "服务器", "linux", "docker", "git", "c++", "c#", "php", "go", "rust", "小程序", "安卓", "爬虫", "数据结构", "数据库", "运维", "部署", "html", "css", "unity", "开源", "源码", "面试题"],
+      "sites": [
+        {"name": "GitHub", "tag": "代码", "desc": "全球最大开源社区", "search": "https://github.com/search?q={q}&type=repositories"},
+        {"name": "CSDN", "tag": "中文博客", "desc": "报错问题命中率高", "search": "https://so.csdn.net/so/search?q={q}"},
+        {"name": "掘金", "tag": "优质文章", "desc": "前端与工程实践", "search": "https://juejin.cn/search?query={q}"},
+        {"name": "Stack Overflow", "tag": "英文问答", "desc": "英文报错第一现场", "search": "https://stackoverflow.com/search?q={q}"},
+        {"name": "MDN", "tag": "官方文档", "desc": "Web 技术标准文档", "search": "https://developer.mozilla.org/zh-CN/search?q={q}"},
+        {"name": "菜鸟教程", "tag": "入门", "desc": "语法速查", "search": "https://www.runoob.com/?s={q}"}
+      ]
+    },
+    {
+      "id": "video",
+      "name": "视频",
+      "kw": ["视频", "剪辑", "教程", "直播", "vlog", "舞蹈", "解说", "翻唱", "唱歌", "钢琴", "鬼畜", "短剧", "操作", "演示", "怎么做", "如何", "实拍", "过程"],
+      "sites": [
+        {"name": "哔哩哔哩", "tag": "中长视频", "desc": "教程与知识类最全", "search": "https://search.bilibili.com/all?keyword={q}"},
+        {"name": "抖音", "tag": "短视频", "desc": "生活类短视频", "search": "https://www.douyin.com/search/{q}"},
+        {"name": "西瓜视频", "tag": "长视频", "desc": "中长视频偏知识", "search": "https://www.ixigua.com/search/{q}"},
+        {"name": "腾讯视频", "tag": "剧综", "desc": "影视剧正版平台", "search": "https://v.qq.com/x/search/?q={q}"}
+      ]
+    },
+    {
+      "id": "film",
+      "name": "影视",
+      "kw": ["电影", "电视剧", "综艺", "动漫", "番剧", "纪录片", "影评", "评分", "豆瓣", "好看", "看什么", "资源", "第几季", "完整版"],
+      "sites": [
+        {"name": "豆瓣电影", "tag": "评分", "desc": "华语影视口碑基准", "search": "https://search.douban.com/movie/subject_search?search_text={q}"},
+        {"name": "哔哩哔哩影视", "tag": "正版番剧", "desc": "番剧与纪录片正版", "search": "https://search.bilibili.com/all?keyword={q}"},
+        {"name": "爱奇艺", "tag": "正版", "desc": "国产剧与综艺", "search": "https://so.iqiyi.com/so/q_{q}"},
+        {"name": "优酷", "tag": "正版", "desc": "老剧与经典", "search": "https://so.youku.com/search_video/q_{q}"}
+      ]
+    },
+    {
+      "id": "study",
+      "name": "学术学习",
+      "kw": ["论文", "文献", "期刊", "知网", "参考文献", "综述", "研究", "考研", "考试", "题库", "四六级", "雅思", "托福", "公开课", "课程", "课件", "复习", "知识点", "试卷", "自考", "专升本"],
+      "sites": [
+        {"name": "中国知网", "tag": "中文文献", "desc": "中文期刊论文最全", "search": "https://search.cnki.com.cn/Search/Result?content={q}"},
+        {"name": "万方数据", "tag": "中文文献", "desc": "学位论文与期刊", "search": "https://s.wanfangdata.com.cn/paper?q={q}"},
+        {"name": "arXiv", "tag": "预印本", "desc": "免费英文预印本", "search": "https://arxiv.org/search/?query={q}&searchtype=all"},
+        {"name": "中国大学MOOC", "tag": "公开课", "desc": "中文系统课程", "search": "https://www.icourse163.org/search.htm?search={q}"},
+        {"name": "牛客网", "tag": "题库面经", "desc": "笔试题与面经", "search": "https://www.nowcoder.com/search?query={q}&type=all"},
+        {"name": "洛谷", "tag": "刷题", "desc": "算法竞赛题库", "search": "https://www.luogu.com.cn/problem/list?keyword={q}"}
+      ]
+    },
+    {
+      "id": "design",
+      "name": "设计与素材",
+      "kw": ["设计", "海报", "logo", "配色", "字体", "素材", "图片", "插画", "ui", "图标", "ppt模板", "简历模板", "封面", "banner", "排版", "美工"],
+      "sites": [
+        {"name": "站酷", "tag": "设计社区", "desc": "华语设计师作品", "search": "https://www.zcool.com.cn/search/content?word={q}"},
+        {"name": "花瓣网", "tag": "灵感采集", "desc": "素材与参考图", "search": "https://huaban.com/search?q={q}"},
+        {"name": "千图网", "tag": "模板", "desc": "海报展板模板", "search": "https://www.58pic.com/search/?word={q}"},
+        {"name": "稿定设计", "tag": "在线做图", "desc": "模板化在线出图", "search": "https://www.gaoding.com/templates?keyword={q}"},
+        {"name": "Unsplash", "tag": "免费图库", "desc": "高质量可商用图", "search": "https://unsplash.com/s/photos/{q}"},
+        {"name": "iconfont", "tag": "图标库", "desc": "阿里矢量图标库", "search": "https://www.iconfont.cn/search/index?searchType=icon&q={q}"}
+      ]
+    },
+    {
+      "id": "ai",
+      "name": "AI 与工具",
+      "kw": ["ai", "人工智能", "aigc", "大模型", "提示词", "prompt", "midjourney", "comfyui", "stable diffusion", "生图", "生成视频", "智能体", "agent", "chatgpt", "deepseek", "claude", "模型"],
+      "sites": [
+        {"name": "即梦 AI", "tag": "生成图/视频", "desc": "字节 AI 绘图与视频", "search": "https://jimeng.jianying.com/ai-tool/home"},
+        {"name": "LiblibAI", "tag": "模型社区", "desc": "国内最大模型社区", "search": "https://www.liblib.art/"},
+        {"name": "Hugging Face", "tag": "开源模型", "desc": "全球模型仓库", "search": "https://huggingface.co/models?search={q}"},
+        {"name": "ModelScope", "tag": "开源模型", "desc": "国内可直连", "search": "https://modelscope.cn/search?search={q}"},
+        {"name": "ComfyUI", "tag": "工作流", "desc": "节点式出图工作流", "search": "https://github.com/comfyanonymous/ComfyUI"}
+      ]
+    },
+    {
+      "id": "shop",
+      "name": "购物消费",
+      "kw": ["多少钱", "价格", "买", "评测", "推荐", "对比", "性价比", "便宜", "值得买", "哪个好", "笔记本", "手机", "耳机", "配置"],
+      "sites": [
+        {"name": "什么值得买", "tag": "口碑比价", "desc": "真实评测与价格史", "search": "https://search.smzdm.com/?c=home&s={q}"},
+        {"name": "京东", "tag": "自营", "desc": "自营正品", "search": "https://search.jd.com/Search?keyword={q}"},
+        {"name": "淘宝", "tag": "全品类", "desc": "品类最广", "search": "https://s.taobao.com/search?q={q}"},
+        {"name": "中关村在线", "tag": "参数", "desc": "数码参数与横评", "search": "https://search.zol.com.cn/s/all.php?kword={q}"}
+      ]
+    },
+    {
+      "id": "music",
+      "name": "音乐",
+      "kw": ["歌", "音乐", "歌曲", "专辑", "歌词", "伴奏", "翻唱", "remix", "原声", "bgm"],
+      "sites": [
+        {"name": "网易云音乐", "tag": "歌单", "desc": "歌单与评论氛围", "search": "https://music.163.com/#/search/m/?s={q}&type=1"},
+        {"name": "QQ音乐", "tag": "曲库", "desc": "正版曲库最大", "search": "https://y.qq.com/n/ryqq/search?w={q}"},
+        {"name": "酷狗音乐", "tag": "曲库", "desc": "老歌与伴奏", "search": "https://www.kugou.com/yy/html/search.html#searchType=song&searchKeyWord={q}"}
+      ]
+    },
+    {
+      "id": "job",
+      "name": "求职招聘",
+      "kw": ["招聘", "实习", "求职", "简历", "面经", "秋招", "春招", "岗位", "应届", "jd", "职业规划", "薪资"],
+      "sites": [
+        {"name": "BOSS直聘", "tag": "招聘", "desc": "岗位量最大", "search": "https://www.zhipin.com/web/geek/job?query={q}"},
+        {"name": "牛客网", "tag": "面经", "desc": "笔试面经与内推", "search": "https://www.nowcoder.com/search?query={q}&type=all"},
+        {"name": "实习僧", "tag": "实习", "desc": "在校生实习岗位", "search": "https://www.shixiseng.com/interns?keyword={q}"}
+      ]
+    }
+  ],
+  "fallback_group": "general"
+}
