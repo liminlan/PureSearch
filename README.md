@@ -15,7 +15,7 @@
 ### 快速开始
 
 ```bash
-git clone https://github.com/<your-name>/PureSearch.git
+git clone https://github.com/liminlan/PureSearch.git
 cd PureSearch
 python server.py
 ```
